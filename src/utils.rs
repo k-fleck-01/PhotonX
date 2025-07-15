@@ -5,8 +5,8 @@
 use nalgebra::{Vector3, Vector4};
 
 // Define type aliases for vectors
-type ThreeVec = Vector3<f64>;
-type FourVec = Vector4<f64>;
+pub type ThreeVec = Vector3<f64>;
+pub type FourVec = Vector4<f64>;
 
 pub mod constants {
     pub const PI: f64 = std::f64::consts::PI;

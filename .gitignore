@@ -22,3 +22,4 @@ target
 */*.py[cod]
 
 */.ipynb_checkpoints/
+*/.virtual_documents/
